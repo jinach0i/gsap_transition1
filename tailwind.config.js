@@ -7,10 +7,15 @@ export default {
     extend: {
       colors:{
         'main-blue':'#204b85',
-        'main-white':'#e2e8f0'
+        'main-white':'#e2e8f0',
+        'main-black':'#443',
       },
       backgroundColor:{
         'main-blue':'#204b85'
+      },
+      spacing: {
+        'm5':'-5px',
+        'm10': '-10px',
       }
     },
   },

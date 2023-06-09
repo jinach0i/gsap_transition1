@@ -8,9 +8,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
-import { faSquareInstagram, faFacebookF,faTwitter,faPiedPiperAlt } from '@fortawesome/free-brands-svg-icons'
+import { faSquareInstagram, faFacebookF,faTwitter,faPiedPiperAlt, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import {  } from '@fortawesome/free-regular-svg-icons'
+
 library.add(faSquareInstagram,
-faFacebookF,faTwitter,faMagnifyingGlass,faPiedPiperAlt)
+faFacebookF,faTwitter,faMagnifyingGlass,faPiedPiperAlt,faGithub)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
